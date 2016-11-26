@@ -1,0 +1,37 @@
+{
+  "name": "Citizen-Scientists-API",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katenorquay/Citizen-Scientists-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katenorquay/Citizen-Scientists-API/issues"
+  },
+  "homepage": "https://github.com/katenorquay/Citizen-Scientists-API#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "imgur": "^0.2.0",
+    "knex": "^0.12.6",
+    "morgan": "^1.7.0",
+    "pg": "^6.1.0",
+    "tape": "^4.6.2",
+    "unirest": "^0.5.1",
+    "urlbox": "^1.0.6"
+  },
+  "devDependencies": {
+    "sqlite3": "^3.1.8",
+    "supertest": "^2.0.1"
+  }
+}
