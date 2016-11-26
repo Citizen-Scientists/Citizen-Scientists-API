@@ -18,3 +18,11 @@ function filterByDate(date) {
 function addNewData() {
   return knex('waterData').insert()
 }
+
+
+module.exports = {
+  getWaterData: getWaterData,
+  filterByLocation: filterByLocation,
+  filterByDate: filterByDate,
+  addNewData: addNewData
+}

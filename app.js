@@ -5,7 +5,7 @@ var bodyParser = require('body-parser');
 var logger = require('morgan');
 
 var routes = require('./routes/index');
-var water = require('./routes/waterData');
+var waterData = require('./routes/waterData');
 
 var app = express();
 
@@ -14,4 +14,6 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 
-app.use('/api/v1/water', designs);
+app.use('/api/v1/water', waterData);
+
+module.exports = app

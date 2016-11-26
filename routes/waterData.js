@@ -48,3 +48,5 @@ router.post('/', function(req, res){
       res.status(404)
     })
 })
+
+module.exports = router;

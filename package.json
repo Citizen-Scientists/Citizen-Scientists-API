@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape 'tests/**/*.js' | tap-spec",
+    "start": "node ./bin/www"
   },
   "repository": {
     "type": "git",
@@ -22,13 +23,11 @@
     "cookie-parser": "^1.4.3",
     "cors": "^2.8.1",
     "express": "^4.14.0",
-    "imgur": "^0.2.0",
     "knex": "^0.12.6",
     "morgan": "^1.7.0",
+    "nodemon": "^1.11.0",
     "pg": "^6.1.0",
-    "tape": "^4.6.2",
-    "unirest": "^0.5.1",
-    "urlbox": "^1.0.6"
+    "tape": "^4.6.2"
   },
   "devDependencies": {
     "sqlite3": "^3.1.8",
